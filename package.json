@@ -1,0 +1,21 @@
+{
+  "name": "n8n-assets",
+  "version": "1.0.0",
+  "description": "n8n静态文件资源",
+  "scripts": {
+    "start": "node ./test.js"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{js,jsx,ts,tsx,css,less,md}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "n8n-assets",
+    "n8n-chinese-assets"
+  ],
+  "author": "legu2009"
+}
