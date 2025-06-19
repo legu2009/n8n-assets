@@ -1,0 +1,24 @@
+name: Run Tests Every 10 Minutes
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # 每 10 分钟执行一次
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # 可根据项目需求修改 Node.js 版本
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
