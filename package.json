@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "n8n静态文件资源",
   "scripts": {
-    "start": "node ./test.js"
+    "test": "node ./test.js"
   },
   "lint-staged": {
     "*.{ts,tsx,jsx}": [
