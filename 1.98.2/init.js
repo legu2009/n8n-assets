@@ -1,6 +1,13 @@
 window.local_legu2009 = {
   assets_url: 'https://n8n.legu2009.xyz/1.98.2',
   i18nInstanceInit(i18nInstance) {
+    var _t = i18nInstance.global.t;
+    i18nInstance.global.t = function () {
+      var args = Array.prototype.slice.call(arguments);
+      var res = _t.apply(this, args);
+      console.log(res, args);
+      return res;
+    }
     i18nInstance.global.mergeLocaleMessage('en', {
       "_reusableBaseText": {
         "cancel": "取消",
