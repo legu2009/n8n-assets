@@ -1,5 +1,4 @@
-window.local_legu2009 = {
-  assets_url: 'https://n8n.legu2009.xyz/1.98.2',
+window.local_n8n_static = {
   i18nInstanceInit(i18nInstance) {
     var _t = i18nInstance.global.t;
     i18nInstance.global.t = function () {
