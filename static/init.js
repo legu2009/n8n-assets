@@ -1,12 +1,12 @@
 window.local_n8n_static = {
   i18nInstanceInit(i18nInstance) {
-    var _t = i18nInstance.global.t;
-    i18nInstance.global.t = function () {
-      var args = Array.prototype.slice.call(arguments);
-      var res = _t.apply(this, args);
-      console.log(res, args);
-      return res;
-    }
+    // var _t = i18nInstance.global.t;
+    // i18nInstance.global.t = function () {
+    //   var args = Array.prototype.slice.call(arguments);
+    //   var res = _t.apply(this, args);
+    //   console.log(res, args);
+    //   return res;
+    // }
     i18nInstance.global.mergeLocaleMessage('en', {
       "_reusableBaseText": {
         "cancel": "取消",
