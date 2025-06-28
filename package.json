@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "n8n静态文件资源",
   "scripts": {
-    "test": "node ./test.js"
+    "publish": "npm run publish --registry=https://registry.npmjs.org"
   },
   "lint-staged": {
     "*.{ts,tsx,jsx}": [
