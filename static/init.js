@@ -1,4 +1,12 @@
 window.local_n8n_static = {
+  processCredentials(data) {
+    console.log('processCredentials', data);
+    return data;
+  },
+  processNodes(data) {
+    console.log('processNodes', data);
+    return data;
+  },
   i18nInstanceInit(i18nInstance) {
     // var _t = i18nInstance.global.t;
     // i18nInstance.global.t = function () {

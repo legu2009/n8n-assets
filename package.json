@@ -1,5 +1,5 @@
 {
-  "name": "n8n-assets",
+  "name": "local-n8n-assets",
   "version": "1.0.0",
   "description": "n8n静态文件资源",
   "scripts": {
