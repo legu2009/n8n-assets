@@ -23,7 +23,7 @@ window.local_n8n_static = (function () {
             deepTraverseJson(data, (key, val, obj) => {
                 if (['displayName', 'description'].includes(key) && typeof val === 'string') {
                     console.log('processCredentials', key, val, obj);
-                    json[key] = val;
+                    json[val] = '';
                 }
             });
             return data;
@@ -32,7 +32,7 @@ window.local_n8n_static = (function () {
             deepTraverseJson(data, (key, val, obj) => {
                 if (['displayName', 'description'].includes(key) && typeof val === 'string') {
                     console.log('processCredentials', key, val, obj);
-                    json[key] = val;
+                    json[val] = '';
                 }
             });
             return data;
