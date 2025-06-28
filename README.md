@@ -1,1 +1,1 @@
-# n8n-assets
+# local_n8n_static
