@@ -9015,7 +9015,7 @@ window.local_n8n_static = (function () {
                     if (!json[val]) {
                         _json[val] = '';
                     }
-                    obj[val] = json[val] || val;
+                    obj[key] = json[val] || val;
                 }
             });
             return data;
@@ -9027,7 +9027,7 @@ window.local_n8n_static = (function () {
                     if (!json[val]) {
                         _json[val] = '';
                     }
-                    obj[val] = json[val] || val;;
+                    obj[key] = json[val] || val;;
                 }
             });
             return data;
