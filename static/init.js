@@ -18,7 +18,7 @@ window.local_n8n_static = (function () {
     }
     var json = {};
     return {
-        json: json,
+        _json: json,
         processCredentials(data) {
             deepTraverseJson(data, (key, val, obj) => {
                 if (['displayName', 'description'].includes(key) && typeof val === 'string') {
