@@ -1,6 +1,6 @@
 {
   "name": "local_n8n_static",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "n8n静态文件资源",
   "scripts": {
     "publish": "npm publish --registry=https://registry.npmjs.org",
