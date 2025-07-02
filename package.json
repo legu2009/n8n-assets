@@ -3,7 +3,19 @@
   "version": "1.0.0",
   "description": "n8n静态文件资源",
   "scripts": {
-    "publish": "npm run publish --registry=https://registry.npmjs.org"
+    "publish": "npm run publish --registry=https://registry.npmjs.org",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.8.2",
+    "@hono/node-server": "^1.14.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
   },
   "lint-staged": {
     "*.{ts,tsx,jsx}": [
