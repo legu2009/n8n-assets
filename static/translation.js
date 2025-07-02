@@ -16472,5 +16472,7 @@
         "Profile Data": "资料数据",
         "Deactivate": "停用"
     };
-    window.local_n8n_static.i18nInstance.global.mergeLocaleMessage('en', json);
+    if (window.local_n8n_static.i18nInstance) {
+        window.local_n8n_static.i18nInstance.global.mergeLocaleMessage('en', json);
+    }
 })();
