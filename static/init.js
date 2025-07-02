@@ -23,7 +23,7 @@ window.local_n8n_static = (function () {
               var args = Array.prototype.slice.call(arguments);
               var res = _t.apply(this, args);
               if (res && res === args[0]) {
-                console.log(res, args);
+                console.log(res);
               }
               return res;
             }

@@ -1,9 +1,9 @@
 {
   "name": "local_n8n_static",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "n8n静态文件资源",
   "scripts": {
-    "publish": "npm publish --registry=https://registry.npmjs.org",
+    "pub": "npm publish --registry=https://registry.npmjs.org",
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
