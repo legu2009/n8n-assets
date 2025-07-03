@@ -4,9 +4,7 @@
   "description": "n8n静态文件资源",
   "scripts": {
     "pub": "npm publish --registry=https://registry.npmjs.org",
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
     "hono": "^4.8.2",
